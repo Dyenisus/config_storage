@@ -1,0 +1,9 @@
+# Zsh başlangıç ayarları
+autoload -Uz compinit
+compinit
+
+# Prompt
+autoload -U colors && colors
+
+PROMPT='%F{yellow}%~%f > '
+
